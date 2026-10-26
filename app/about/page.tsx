@@ -16,7 +16,7 @@ export default function page() {
         <h2 className="text-gray-400 text-sm sm:text-base">フロントエンドエンジニア</h2>
         <p className="text-gray-400 text-sm sm:text-base">東京都在住</p>
         <p className="text-sm sm:text-lg text-gray-200">
-          Next.js / React を中心にUI設計と実装を行っています
+          Next.js / React を中心にUI設計と実装を行いながら、Linux / インフラも学んでいます
         </p>
       </header>
 
@@ -31,11 +31,20 @@ export default function page() {
           </p>
 
           <h3 className="relative inline-block text-xl sm:text-2xl font-bold text-white">
+            インフラへの取り組み
+          </h3>
+          <p className="leading-relaxed text-gray-300 text-sm sm:text-base">
+            作った UI が「どこで・どう動いているのか」まで理解したいと考え、Linux とサーバー構築の学習を始めました。<br />
+            VMware 上に AlmaLinux のサーバーを構築し、固定IP の設定、一般ユーザー + sudo での運用、SSH の鍵認証化などに取り組んでいます。<br />
+            設定ひとつひとつについて「なぜそうするのか」を言葉にして記録しながら進めています。
+          </p>
+
+          <h3 className="relative inline-block text-xl sm:text-2xl font-bold text-white">
             今後の学習について
           </h3>
           <p className="leading-relaxed text-gray-300 text-sm sm:text-base">
-            現在は App Router / Server Components の理解を深め、<br />
-            設計レベルで Next.js を使いこなせることを目標にしています。
+            フロントエンドでは App Router / Server Components の理解を深め、設計レベルで Next.js を使いこなせることを目標にしています。<br />
+            インフラでは、自分で構築したサーバーに Web アプリを公開し、構築から運用までを一通り経験することを目指しています。
           </p>
         </section>
 

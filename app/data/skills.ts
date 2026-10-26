@@ -57,6 +57,24 @@ export const cloudServices = [
   }
 ]
 
+export const infrastructure = [
+  {
+    name: "Linux (AlmaLinux)",
+    img: "/skills/linux-original.svg",
+    month: "1 Month"
+  },
+  {
+    name: "SSH",
+    img: "/skills/ssh-original.svg",
+    month: "1 Month"
+  },
+  {
+    name: "VMware",
+    img: "/skills/vmware-original.svg",
+    month: "1 Month"
+  }
+]
+
 export const devTools = [
   {
     name: "VSCode",
