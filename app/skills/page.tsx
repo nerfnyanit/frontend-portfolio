@@ -3,6 +3,7 @@ import { devTools } from "app/data/skills"
 import { programmingLanguages} from "app/data/skills"
 import { frameworks} from "app/data/skills"
 import { cloudServices} from "app/data/skills"
+import { infrastructure} from "app/data/skills"
 import { Metadata } from "next"
 
 export const metadata: Metadata = {
@@ -58,8 +59,25 @@ export default function page() {
         {cloudServices.map((tool) => (
           <SkillCard
             key={tool.name}
-            name={tool.name}         
-            img={tool.img}           
+            name={tool.name}
+            img={tool.img}
+            month={tool.month}
+          />
+        ))}
+      </div>
+    </section>
+
+    <section>
+      <h2 className="text-2xl font-semibold mb-6 text-white">
+        Infrastructure
+      </h2>
+
+      <div className="flex flex-wrap gap-6">
+        {infrastructure.map((tool) => (
+          <SkillCard
+            key={tool.name}
+            name={tool.name}
+            img={tool.img}
             month={tool.month}
           />
         ))}
