@@ -35,7 +35,9 @@ export default function page() {
           </h3>
           <p className="leading-relaxed text-gray-300 text-sm sm:text-base">
             作った UI が「どこで・どう動いているのか」まで理解したいと考え、Linux とサーバー構築の学習を始めました。<br />
-            VMware 上に AlmaLinux のサーバーを構築し、固定IP の設定、一般ユーザー + sudo での運用、SSH の鍵認証化などに取り組んでいます。<br />
+            まず VMware 上の AlmaLinux で、固定IP の設定、一般ユーザー + sudo での運用、SSH の鍵認証化などを一通り検証しました。<br />
+            その手順をもとに AWS EC2 上に自分でサーバーを立て、このポートフォリオを公開しています。<br />
+            Next.js は systemd で常駐させ、Nginx をリバースプロキシとして前に置き、HTTPS は Let&apos;s Encrypt（certbot）で対応しています。<br />
             設定ひとつひとつについて「なぜそうするのか」を言葉にして記録しながら進めています。
           </p>
 
@@ -44,7 +46,7 @@ export default function page() {
           </h3>
           <p className="leading-relaxed text-gray-300 text-sm sm:text-base">
             フロントエンドでは App Router / Server Components の理解を深め、設計レベルで Next.js を使いこなせることを目標にしています。<br />
-            インフラでは、自分で構築したサーバーに Web アプリを公開し、構築から運用までを一通り経験することを目指しています。
+            インフラでは、障害を想定した切り分け・復旧の練習と手順書の整備を進め、公開したサーバーを安定して運用できるようになることを目指しています。
           </p>
         </section>
 
