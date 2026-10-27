@@ -77,11 +77,6 @@ export const infrastructure = [
     name: "AWS (EC2)",
     img: "/skills/amazonwebservices-original.svg",
     month: "1 Month"
-  },
-  {
-    name: "Nginx",
-    img: "/skills/nginx-original.svg",
-    month: "1 Month"
   }
 ]
 
