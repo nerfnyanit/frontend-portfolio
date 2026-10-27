@@ -24,7 +24,7 @@ export function useClientFetch(){
                 const json: User = await res.json()
                 setUsers(json)
             }
-            } catch(error) {
+            } catch {
                 setError(true)
             } finally {
                 setLoading(false)
